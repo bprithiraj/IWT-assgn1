@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="./stylelogin.css">
+</head>
+<body>
+    <div class="container">
+        <div class="loginContainer">
+            <form>
+                <div class="email">
+                    <label>Email</label>
+                    <input type="email" name="email" id="email">
+                    <br>
+                </div> 
+                <div class="password">
+                    <label>Password</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <button type="button" onclick="auth()">Login</button>
+            </form>
+        </div>
+    </div>
+
+<script>
+    const myauth={ myemail: 'b520016@iiit-bh.ac.in', mypassword: '1234'}
+    function auth()
+{
+    const email=document.getElementById('email').value;
+    const password=document.getElementById('password').value;
+    if(email==myauth.myemail && password==myauth.mypassword){
+        window.location.assign("index.html");
+    }
+    else{
+        alert("Invalid Credentials");
+    }
+}
+</script>
+</body>
+</html>

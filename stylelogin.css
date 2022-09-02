@@ -1,0 +1,12 @@
+body{
+    background: url("/Users/b.prithiraj/Documents/login page/images.jpeg");
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    color: rgb(4, 28, 31);
+    padding-top: 300px;
+    line-height: 1.5;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

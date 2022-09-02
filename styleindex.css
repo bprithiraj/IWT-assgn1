@@ -1,0 +1,35 @@
+
+  
+body {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+    background: url("/Users/b.prithiraj/Documents/login page/memphis-frame-vector-beige-paper-collage-blue-cute-abstract-background_53876-108787.webp");
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: rgb(4, 28, 31);
+    line-height: 1.5;
+    overflow: hidden;
+
+
+}
+img{
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+    
+}
+table{
+    width: 80%;
+    height: 300px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(4, 28, 31);
+    line-height: 1.5;
+    overflow: hidden;
+
+
+}
